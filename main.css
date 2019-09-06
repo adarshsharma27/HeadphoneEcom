@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css?family=Livvic|PT+Sans&display=swap');
+
+.top-header .bg-dark {
+    background-color:#333333!important;
+  
+}
+
+
+.top-header .navbar-expand-sm {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.top-header .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Livvic',sans-serif;
+
+}
+.bg-dark{
+    background-color: white!important;
+}
+.navbar-expand-sm {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: space-evenly;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#868686;
+    font-family: 'Roboto';
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-right: 3px;
+    padding-left: 10px;
+
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #ffbb42;
+}
+.mid-header .row{
+    width: 1364px;
+    height: 333px;
+    background-color:#f5f5f5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mid-header  .btn-primary{
+        color: #fff;
+        background-color: #f73859;
+        border-color: #f73859;
+        border-radius: 40px;
+        font-family: 'Roboto';
+        width:210px;
+        height:35px;
+    }
+
+    
+.our-products{
+    height: 333px;
+}
+.our-products .row{
+    width: 100%;
+   
+    justify-content: space-evenly;
+}
+.our-products h4{
+    color:#212529;
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Levvic';
+    letter-spacing: 1px;
+}
+.our-products .btn-primary {
+    color: #fff;
+    background-color: #f73859;
+    border-color: #f73859;
+    display: block;
+    border-radius: 7px;
+    font-family: 'Roboto';
+}
+.buy .row{
+    background-color: #fafafa;
+    width: 1364px;;
+    
+
+}
+.buy .btn-primary{
+    color: #fff;
+    background-color: #f73859;
+    border-color: #f73859;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    width:210px;
+    height:35px;
+    margin-left: 40px
+}
+h3{
+    padding-top:20px;
+}
+.form-control{
+    width:50%;
+    
+}
+.form-group{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.btn-success {
+    color: #fff;
+    background-color: #347ec3;
+    border-color: #347ec3;
+    width: 16%;
+}
+iframe{
+    padding-top: 50px;
+    width:100%;
+}
+.footer{
+    width:100%;
+    background-color:#222222;
+    color:white;
+    height: 50px;
+    font-size:20px;
+    font-family:'PT Sans';
+    text-align: center;
+    padding: 8px;
+    margin-top:-6px;
+}
+.footer .btn-primary{
+    color: #fff;
+    background-color: #f73859;
+    border-color: #f73859;
+    font-family: 'Roboto';
+    width:126px;
+    height:38px;
+   
+    margin-top: -4px;
+    
+}
+.footer input{
+    
+    border: 2px solid #f73859;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+.card img{
+    position:relative;
+}
+.overlay-3{
+            background-color:#d3d3d394;
+            width: 249px;
+            height: 140px;
+        position: absolute;
+        opacity: 0;
+        transition: all 1.5s ease;
+        z-index:999;
+        left: -1px;
+        top:0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+}
+.overlay-3:hover{
+    opacity:1;
+    transition: all 1s ease-in;
+
+    
+}
+
+.overlay-4{
+    background-color:#d3d3d394;
+    width: 249px;
+    height: 165px;
+position: absolute;
+opacity: 0;
+transition: all 1.5s ease;
+z-index:999;
+left: -1px;
+top:0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.overlay-4:hover{
+opacity:1;
+transition: all 1s ease-in;
+
+
+}
+
+
+
+
+.fa-heart {
+
+    background-color: #e5465c;
+    color: white;
+    width: 44px;
+    height: 39px;
+    padding: 7px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 2px 1px white;
+    border-radius: 5px;
+    
+}
+.fa-shopping-cart{
+
+    background-color: #e5465c;
+    color: white;
+    width: 44px;
+    height: 39px;
+    padding: 7px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 2px 1px white;
+    border-radius: 5px;
+    
+}
+.fa-share {
+
+    background-color: #e5465c;
+    color: white;
+    width: 44px;
+    height: 39px;
+    padding: 7px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 2px 1px white;
+    border-radius: 5px;
+    
+    
+}
+.fa:hover{
+    background-color:#2b90d9;
+    
+   
+}
