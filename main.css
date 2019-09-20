@@ -243,3 +243,6 @@ transition: all 1s ease-in;
     
    
 }
+img{
+    border-radius: 4% 24% 48% 52% / 30% 77% 23% 70%;
+}
